@@ -31,9 +31,13 @@ def chatbot():
     user_input = request.form["message"]
     prompt = f"User: {user_input}\n ChatBot: "
     
+    pmpt = "Act as a happy go lucky guy named ChatBud and give response to the question accordingly. The question: "
+    
+    final_ip = pmpt + user_input
+    
     chat_history=[]
     
-    response = model.generate_content(f"{user_input}")
+    response = model.generate_content(f"{final_ip}")
     
     for chunk in response:
      print(chunk.text)
