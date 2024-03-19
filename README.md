@@ -65,7 +65,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or support, feel free to contact the project maintainers at [email@example.com](mailto:email@example.com).
+For any inquiries or support, feel free to contact the project maintainers at [aakashsinha1606@gmail.com](mailto:aakashsinha1606@gmail.com).
 
 ---
 
